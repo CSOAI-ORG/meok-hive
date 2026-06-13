@@ -1,0 +1,21 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok",
+    "description": "The customer-facing compliance portal \u2014 B2B dashboard, attestation verifier, API-key manager.",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://meok.ai"
+      }
+    ],
+    "capabilities": [
+      "meok-attestation-api",
+      "meok-compliance-gateway",
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
