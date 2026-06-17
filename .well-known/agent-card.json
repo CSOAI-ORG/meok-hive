@@ -1,0 +1,35 @@
+{
+  "name": "meok.ai",
+  "title": "MEOK — Multi-Entity Operational Keystone",
+  "description": "The keystone domain of the MEOK empire. Sovereign identity, ethical governance, and cross-hive orchestration.",
+  "cluster": "TRUST-GOVERNANCE",
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://meok.ai/",
+  "agent": {
+    "protocol": "model-context-protocol",
+    "version": "1.0",
+    "mcp_endpoint": "https://mcp.meok.ai/v1",
+    "capabilities": ["reasoning", "tool_use", "context_management", "multi_agent_coordination"],
+    "authentication": {
+      "scheme": "oauth2",
+      "token_url": "https://auth.sov3.meok.ai/oauth/token",
+      "authorization_url": "https://auth.sov3.meok.ai/oauth/authorize",
+      "scopes": ["agent:read", "agent:write", "mcp:invoke"]
+    },
+    "identity": {
+      "did": "did:meok:meok.ai",
+      "verification_method": "did:meok:meok.ai#keys-1"
+    }
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "MEOK Empire",
+    "url": "https://meok.ai/"
+  },
+  "clusterOf": {
+    "@type": "Organization",
+    "name": "TRUST-GOVERNANCE",
+    "url": "https://meok.ai/"
+  }
+}

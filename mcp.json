@@ -1,0 +1,14 @@
+{
+  "name": "meok.ai",
+  "title": "MEOK — Multi-Entity Operational Keystone",
+  "description": "The keystone domain of the MEOK empire. Sovereign identity, ethical governance, and cross-hive orchestration.",
+  "cluster": "TRUST-GOVERNANCE",
+  "servers": [
+        { "id": "keystone-mcp.sov3.meok.ai", "url": "https://keystone-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "identity-mcp.sov3.meok.ai", "url": "https://identity-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "governance-mcp.sov3.meok.ai", "url": "https://governance-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}
